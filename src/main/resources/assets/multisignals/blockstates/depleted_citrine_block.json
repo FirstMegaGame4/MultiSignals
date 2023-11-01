@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "multisignals:block/depleted_citrine_block"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "fr.firstmegagame4.multisignals.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AbstractBlockMixin",
+    "AbstractBlockMixin$AbstractBlockStateMixin",
+    "BlockMixin",
+    "RedstoneWireBlockAccessor",
+    "RedstoneWireBlockMixin",
+    "StateMixin",
+    "WorldViewMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

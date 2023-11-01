@@ -1,0 +1,47 @@
+{
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_4538": [
+				"fr/firstmegagame4/multisignals/injected/world/CitrineView"
+			],
+			"net/minecraft/class_4970": [
+				"fr/firstmegagame4/multisignals/injected/CitrineImpl"
+			],
+			"net/minecraft/class_4970\u0024class_4971": [
+				"fr/firstmegagame4/multisignals/injected/CitrineImpl\u0024State"
+			]
+		}
+	},
+	"schemaVersion": 1,
+	"id": "multisignals",
+	"version": "${version}",
+	"name": "MultiSignals",
+	"description": "This mod allows new derived concepts of the Minecraft Vanilla Redstone.",
+	"authors": [
+		"FirstMegaGame4"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/multisignals",
+		"sources": "https://github.com/FirstMegaGame4/MultiSignals"
+	},
+	"license": "LGPL-3",
+	"icon": "assets/multisignals/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"fr.firstmegagame4.multisignals.MultiSignals"
+		],
+		"client": [
+			"fr.firstmegagame4.multisignals.client.MultiSignalsClient"
+		]
+	},
+	"mixins": [
+		"multisignals.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

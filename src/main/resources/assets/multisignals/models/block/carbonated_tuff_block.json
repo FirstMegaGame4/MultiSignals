@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "multisignals:block/carbonated_tuff_block"
+  }
+}
