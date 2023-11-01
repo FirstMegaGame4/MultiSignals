@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "citrine",
+  "key": {
+    "#": {
+      "item": "multisignals:carbonated_tuff_block"
+    }
+  },
+  "pattern": [
+    "#",
+  ],
+  "result": {
+    "item": "multisignals:carbonated_tuff",
+    "count: 4"
+  },
+  "show_notification": true
+}
