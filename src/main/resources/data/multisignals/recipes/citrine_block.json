@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "citrine",
+  "key": {
+    "#": {
+      "item": "multisignals:citrine"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "multisignals:citrine_block"
+  },
+  "show_notification": true
+}
