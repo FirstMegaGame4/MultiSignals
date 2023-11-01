@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "citrine",
+  "key": {
+    "#": {
+      "item": "multisignals:citrine_block"
+    }
+  },
+  "pattern": [
+    "#",
+  ],
+  "result": {
+    "item": "multisignals:citrine",
+    "count: 9"
+  },
+  "show_notification": true
+}
